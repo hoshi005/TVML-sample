@@ -1,0 +1,14 @@
+<document>
+    <alertTemplate>
+        <title>Swiftを呼ぶよ</title>
+        <button onselect="logWithSwift()">
+            <text>logWithSwift()</text>
+        </button>
+        <button onselect="setUserNameWithSwift('Susumu Hoshikawa')">
+            <text>ユーザ名の保存処理</text>
+        </button>
+        <button onselect="userNameWithSwift()">
+            <text>ユーザ名の取得処理</text>
+        </button>
+    </alertTemplate>
+</document>
